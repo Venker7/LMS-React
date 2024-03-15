@@ -1,0 +1,67 @@
+.addbooks{
+    color: blue;
+    width: 171.5vh;
+    height: 97.7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.309);
+    backdrop-filter: blur(20px);
+    outline: 1px solid white;
+margin-left: 239px;
+
+}
+p{
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.form-box{
+    height: 80vh;
+    width: 70vh;
+    background-color: rgba(255, 255, 255, 0.521);
+    outline: 1px solid white;
+    box-shadow: 0px 0px 20px 1px black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    margin: 30px;
+    height: 50vh;
+}
+label{
+    margin-left: 5px;
+}
+form input{
+    width: 50vh;
+    outline: 2px solid black;
+    border: none;
+    color: black;
+    font-size: 16px;
+}
+
+input::placeholder{
+    color: black;
+}
+
+input:focus{
+    outline: 3px solid blue;
+    background-color: rgb(218, 219, 169);
+}
+
+.add{
+    margin: 10px;
+    font-size: 15px;
+    height: 40px;
+    width: 100px;
+    border: none;
+    outline: 2px solid black;
+}
+
+.add:hover{
+    outline: 2px solid blue;
+    border: none;
+    background-color: yellow;
+}
+

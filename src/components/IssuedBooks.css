@@ -1,0 +1,13 @@
+.issuedbooks{
+    color: blue;
+    width: 171.5vh;
+    height: 97.7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.309);
+    backdrop-filter: blur(20px);
+    outline: 1px solid white;
+margin-left: 239px;
+
+}
