@@ -1,0 +1,10 @@
+.listbooks{
+    height: 600px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 165vh;
+    background-color: rgba(25, 25, 25, 0.625);
+    outline: 1px solid white;
+}

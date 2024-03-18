@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import "./totalbooks.css"
 
-export const TotalBooks = () => {
-    const [total,setTotal]=useState(0);
+export const TotalBooks = ({totalbooks}) => {
   return <div className="total">
     <p className="total-books">Total no.of books</p>
-    {total}
+    {totalbooks}
   </div>;
 };

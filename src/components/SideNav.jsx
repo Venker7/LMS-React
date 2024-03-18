@@ -7,7 +7,7 @@ export const SideNav = () => {
     <h2>L.M.S</h2>
     <nav>
     <div id="nav">
-    <NavLink className="link" to='/home/dashboard'>Dashboard</NavLink>
+    <NavLink className="link" to='/'>Dashboard</NavLink>
     </div>
     <div id="nav">
     <NavLink className="link" to='/home/addbooks'>Add Books</NavLink>

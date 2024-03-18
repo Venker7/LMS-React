@@ -12,6 +12,7 @@
     backdrop-filter: blur(20px);
     outline: 1px solid white;
     margin-left: 239px;
-    gap: 60px;
+    gap: 50px;
+    row-gap: 0px;
 
   }

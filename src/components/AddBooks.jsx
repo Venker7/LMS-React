@@ -1,19 +1,18 @@
 import { useState } from "react";
 import "./AddBooks.css"
 
-export const AddBooks = () => {
+export const AddBooks = ({onButtonClick}) => {
   const [book,setBook]=useState({bookname:"",bookID:"",authorname:"",category:""});
   const [books,setBooks]=useState([]);
   function handleAdd(e){
     e.preventDefault();
-   
-    setBooks([...books,book.bookname,book.bookID,book.authorname,book.category])
+   onButtonClick(prevCount=>prevCount+1);
+     setBooks([...books,book.bookname,book.bookID,book.authorname,book.category]);
   }
+ 
   return <div className="addbooks">
           <div className="form-box">
             <p>Add Books</p>
-            {console.log(book)}
-            {console.log(books)}
             <form>
               <div>
                 <label>Book name:</label>
