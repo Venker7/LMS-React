@@ -1,6 +1,6 @@
 .issue-department{
     height: 45px;
-    width: 160vh;
+    width: 165vh;
     background-color: rgb(180, 185, 185);
     margin:20px;
     outline: 2px solid white;
@@ -28,7 +28,6 @@
     margin: 5px;
 }
 .issue-department .active{
-    background-color: rgba(165, 42, 42, 0.516);
-    outline: 1px solid white;
-    color: white;
+    background-color: rgba(108, 42, 165, 0.519);
+    color: aliceblue;
 }

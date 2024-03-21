@@ -7,8 +7,63 @@
     margin-left: 50px;
     align-self: start;
     align-items: center;
-    border-radius: 10px;
-    outline: 2px solid white;
     font-size: 25px;
     box-shadow: 0px 0px 20px 1px black;
+    overflow: scroll;
+}
+
+.return-header{
+    width: 535px;
+    height: 30px;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+.return-ID{
+    width: 80px;
+display: flex;
+justify-content: center;
+}
+
+.return-bookname{
+    width: 230px;
+    display: flex;
+}
+
+.return-user{
+    width: 230px;
+    display: flex;
+}
+
+.return-books-row{
+    width: 540px;
+    height: 30px;
+    background-color: rgba(151, 150, 150, 0.935);
+    color: white;
+    display: flex;
+    justify-content: start;
+}
+
+.return-body{
+    margin-top: 30px;
+}
+
+.return-books-row:nth-child(even)
+{
+    background-color: rgb(248, 252, 252);
+    color: black;
+}
+
+.return-id{
+ width: 80px;
+ display: flex;
+ margin-left: 5px;
+ justify-content: center;
+}
+
+.return-title{
+   width: 230px;
+   margin-left: 5px;
 }

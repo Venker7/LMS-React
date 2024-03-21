@@ -1,5 +1,40 @@
 import React from "react";
 import "./CseIssuebooks.css"
+import { IssuebooksNavbar } from "./IssuebooksNavbar";
 export const ECEissuedbooks = () => {
-  return <div className="listbooks">ECEissuedbooks</div>;
+  return <table className="listbooks">
+                
+                <thead className="book-header">
+        <tr>
+        <th>
+          <div className="id">ID</div>
+        </th>
+        <th>
+          <div className="title">Title</div>
+        </th>
+        <th>
+          <div className="author">Author</div>
+        </th>
+        <th>
+          <div className="date">Issued Date</div>
+        </th>
+        <th>
+          <div className="till">Issued Till</div>
+        </th>
+        <th>
+          <div className="byuser">Borrower/Regitration No.</div>
+        </th>
+        <th>
+          <div className="action">Action</div>
+        </th>
+        </tr>
+      </thead>
+  <tbody>
+    
+   
+   
+   
+    
+  </tbody>
+     </table>;
 };

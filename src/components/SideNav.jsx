@@ -16,7 +16,7 @@ export const SideNav = () => {
     <NavLink  className="link" to='/home/checkbooks'>Check Books</NavLink>
     </div>
     <div id="nav">
-    <NavLink className="link" to='/home/issuedbooks'>Issued Books</NavLink>
+    <NavLink className="link" to='/home/issuedbooks/computer'>Issued Books</NavLink>
     </div>
 
 

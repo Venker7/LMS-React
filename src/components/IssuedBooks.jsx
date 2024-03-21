@@ -7,6 +7,6 @@ import { HSissuedbooks } from "./Issuebooks/HSissuedbooks";
 export const IssuedBooks = () => {
   return <div className="issuedbooks">
     <IssuebooksNavbar/>
-    <Outlet></Outlet>
+    <Outlet/>  
   </div>;
 };
