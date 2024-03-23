@@ -33,20 +33,20 @@ tr{
     height: 20px;
     justify-content: center;
     align-items: center;
-    width: 70px;
+    width: 52px;
 }
 .title{
     display: flex;
     width: 250px;
     height: 20px;
-    margin-left: 5px;
+    margin-left:15px;
     align-items: center;
 
 
 }
 .author{
     display: flex;
-    width: 250px;
+    width: 252px;
     height: 20px;
     margin-left: 5px;
     align-items: center;
@@ -89,7 +89,6 @@ tbody{
     justify-content:start;
     align-items: center;
     color: white;
-    margin-left:15px;
     font-size: 13.5px;
     font-style: bold;
 }
@@ -146,7 +145,7 @@ tbody{
 }
 
 .action{
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 .books-row:nth-child(even){
@@ -157,7 +156,8 @@ tbody{
 
 .books-row:hover{
     background-color: rgba(204, 204, 155, 0.342);
-    color: blue;
+    height: 35px;
+    color: yellow;
 }
 
 button{
@@ -165,7 +165,7 @@ button{
     border-radius: 2px;
 }
 button:hover{
- background-color: green;
+ background-color: black;
  cursor: pointer;   
 }
 .return-button{
@@ -175,6 +175,8 @@ button:hover{
     color: aliceblue;
     height: 17px;
 }
+
+
 
 .renew-button{
   height: 17px;

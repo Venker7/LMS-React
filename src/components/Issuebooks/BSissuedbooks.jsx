@@ -23,7 +23,7 @@ export const BSissuedbooks = () => {
           <div className="till">Issued Till</div>
         </th>
         <th>
-          <div className="byuser">Borrower/Regitration No.</div>
+          <div className="byuser">Borrower/Registration No.</div>
         </th>
         <th>
           <div className="action">Action</div>
